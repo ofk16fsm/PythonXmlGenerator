@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd">
+  <product>
+    <id>202102</id>
+    <name>Gudfadern</name>
+    <price>99</price>
+    <type>DVD</type>
+    <playtime>152</playtime>
+  </product>
+  <product>
+    <id>102342</id>
+    <name>Pulp fiction</name>
+    <price>99</price>
+    <type>DVD</type>
+    <playtime>154</playtime>
+  </product>
+  <product>
+    <id>201548</id>
+    <name>Schindlers list</name>
+    <price>149</price>
+    <type>DVD</type>
+    <playtime>195</playtime>
+  </product>
+</products>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+	<xsi:element name="products" type="productsType"></xsi:element>	
+	<xsi:complexType name="productsType">
+		<xsi:sequence>
+            <xsi:element name="product" type="productType" maxOccurs="unbounded"></xsi:element>
+        </xsi:sequence>
+    </xsi:complexType>
+	
+	<xsi:complexType name="productType">
+        <xsi:sequence>
+            <xsi:element name="id" type="xsi:integer"/>
+            <xsi:element name="name" type="xsi:string"/>
+            <xsi:element name="price" type="xsi:integer"/>
+            <xsi:element name="type" type="xsi:string"/>
+            <xsi:element name="playtime" type="xsi:integer"/>
+        </xsi:sequence>
+    </xsi:complexType>
+</xsi:schema>
